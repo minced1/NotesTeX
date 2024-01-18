@@ -1,4 +1,4 @@
-\babel@toc {ngerman}{}\relax 
+\babel@toc {english}{}\relax 
 \contentsline {part}{1\hspace {1em}Introduction}{1}{part.1}%
 \contentsline {section}{\numberline {1}Required Packages}{1}{section.1}%
 \contentsline {part}{2\hspace {1em}Modifications}{2}{part.2}%

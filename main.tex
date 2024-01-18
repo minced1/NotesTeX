@@ -2,18 +2,29 @@
 \documentclass[10pt]{article}
 \usepackage{NotesTeXV3,lipsum}
 % \SetColorProfile{9A3136}{9D6669}{999731}{317499}{A1B8C5}
-\usepackage[ngerman]{babel}
-
+\usepackage[ngerman, english]{babel}
 
 \begin{document}
+	\subheader{Subheader}
+	\proceeding{Proceeding}
 	\title{{Notes\TeX}\\{\normalsize{\itshape An All-In-One Notes Package For Students}}}
-	\author{Never Gude}
+	\author{Ricky Licky}
+	\collaboration{Joe Bite'em}
 	\affiliation{
 	Carl-Friedrich-Gauß Gymnasium Hockenheim\\
 	\href{https://github.com/minced1}{GitHub}\\
 	}
-	\emailAdd{adhumunt@gmail.com}
+	\abstract{This is a very cool abstract. Additional package are listed right under the required packages in \texttt{NotesTeX.sty}.
+	These are divided into font styling packages and mathematical and physics related packages.
+	The list of packages are also reiterated here and their links are in the sidenotes.}
+	\emailAdd{email@provider.com}
+	\keywords{dska kdlsöa dkwöla dsads}
+	\dedicated{Dedicated to your Momma}
+	\acknowledgments{SomeAcknowledgements}
+	\license{This work is licensed under \href{https://creativecommons.org/licenses/by-nc-sa/4.0/}{CC BY-NC-SA 4.0}}{\ccbyncsa}
 	\maketitle
+
+
 	\newpage
 	\pagestyle{fancynotes}
 	\part{Introduction}
@@ -275,7 +286,6 @@ def incmatrix(genl1,genl2):
 	breakable,
 }
 		\end{lstlisting}
-		\qed
 	\end{proof}
 	\begin{example}
 		The \texttt{example} environment and the associated \texttt{tcolorbox} are provided by the following code in \texttt{NotesTeX.sty}:
