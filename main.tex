@@ -68,6 +68,17 @@ def incmatrix(genl1,genl2):
 
 	\end{lstlisting}
 
+\[
+f F (x,y)= gG(x,y) \left\{ \begin{array}{ll}
+\frac{x^2y}{x^4+y^2} & \mbox{if $(x,y) \neq (0,0)$} \\
+0 & \mbox{if $(x,y) = (0,0)$} \\
+\end{array}
+\right. \\
+\]
+\begin{equation}
+\sum^{6}_{i=0}\frac{121}{\vec{x}_i}
+\end{equation}
+
 \begin{margintable}\vspace{.8in}\footnotesize
 		\begin{tabularx}{\marginparwidth}{|X}
 		%Section~\ref{sec:motivation}. Motivation\\
@@ -75,7 +86,7 @@ def incmatrix(genl1,genl2):
 		%Section~\ref{sec:license}. Margins\\
 		\end{tabularx}
 	\end{margintable}
-	For \textit{NotesTeX,} the following packages are required
+	For \textit{NotesTeX,} $NotesTeX$ the following packages are required
 	\begin{center}
 		\texttt{marginnote, sidenotes, fancyhdr, titlesec, geometry, and tcolorbox.}
 	\end{center}
@@ -216,12 +227,6 @@ def incmatrix(genl1,genl2):
 
 	There is one issue with this however. Since we are using a \texttt{tcolorbox}, this proof environment is incompatible with \texttt{$\backslash$sn} and \texttt{$\backslash$sidenote}, as it results in a \textbf{Float(s) Error}. However, this environment is compatible with \texttt{$\backslash$mn} and \texttt{$\backslash$marginnote}.
 
-	\begin{equation}
-	\frac{121}{\vec{x}}
-	\end{equation}
-	\begin{equation}
-	\frac{121}{\vec{x}}
-	\end{equation}
 	\begin{definition}
 		The \texttt{definition} environment and the associated \texttt{tcolorbox} are provided by the following code in \texttt{NotesTeX.sty}:
 		\begin{lstlisting}[language={[LaTeX]TeX}]
@@ -322,9 +327,6 @@ def incmatrix(genl1,genl2):
 	\end{remark}
 
 	\section{Fullpage Environment}\label{Sec: Fullpage}
-		\begin{equation}
-	\sum^{6}_{i=0}\frac{121}{\vec{x}_i}
-	\end{equation}
 	\begin{fullpage}
 		The \texttt{fullpage} environment is defined by
 		\begin{center}
