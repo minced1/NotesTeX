@@ -1,0 +1,66 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{ynt/global//global/global}
+    \entry{Sanderson2017}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=5dd1de74b15229ad68590a5ce3ade3c5}{%
+           family={Sanderson},
+           familyi={S\bibinitperiod},
+           given={Grant},
+           giveni={G\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=31ad4cc5001dacd7a3e3c6288dcf10d4}{%
+           family={Pullen},
+           familyi={P\bibinitperiod},
+           given={Josh},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{5dd1de74b15229ad68590a5ce3ade3c5}
+      \strng{fullhash}{5dd1de74b15229ad68590a5ce3ade3c5}
+      \strng{bibnamehash}{5dd1de74b15229ad68590a5ce3ade3c5}
+      \strng{authorbibnamehash}{5dd1de74b15229ad68590a5ce3ade3c5}
+      \strng{authornamehash}{5dd1de74b15229ad68590a5ce3ade3c5}
+      \strng{authorfullhash}{5dd1de74b15229ad68590a5ce3ade3c5}
+      \strng{editorbibnamehash}{31ad4cc5001dacd7a3e3c6288dcf10d4}
+      \strng{editornamehash}{31ad4cc5001dacd7a3e3c6288dcf10d4}
+      \strng{editorfullhash}{31ad4cc5001dacd7a3e3c6288dcf10d4}
+      \field{labelalpha}{San17}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{chapter}{1-4}
+      \field{subtitle}{The basics of neural networks, and the math behind how
+      they learn}
+      \field{title}{Neural Networks}
+      \field{year}{2017}
+      \verb{urlraw}
+      \verb https://www.3blue1brown.com/topics/neural-networks
+      \endverb
+      \verb{url}
+      \verb https://www.3blue1brown.com/topics/neural-networks
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
